@@ -476,7 +476,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWRTY, h: toggle}
+  - {t: QWRTY, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -538,7 +538,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, type: held}
   - {t: PgDn, h: MOUSE}
   - {t: PgUp, h: SNIPE}
   - N
@@ -547,7 +547,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: DVORAK, h: toggle}
+  - {t: GLOBE, h: DVORAK, type: held}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   - $$mdi:apple-keyboard-caps$$
   - LEFT WIN
