@@ -547,7 +547,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: GLOBE, h: '7'}
+  - {t: DVORAK, h: toggle}
   - {t: '$$mdi:apple-keyboard-control$$', h: SCROLL}
   - $$mdi:apple-keyboard-caps$$
   - LEFT WIN
