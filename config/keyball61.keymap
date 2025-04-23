@@ -41,11 +41,11 @@
 
         symbol_layer {
             bindings = <
-&trans  &kp F1    &kp F2    &kp F3  &kp F4     &kp F5                  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &kp F11    &kp F12   &kp FSLH  &kp LBKT   &kp RBKT   &kp BSPC
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PG_UP  &kp HOME  &kp BSLH  &kp EQUAL  &kp MINUS  &kp RET
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PG_DN  &kp END   &trans    &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans                                    &trans     &trans
+&none  &kp F1    &kp F2    &kp F3  &kp F4     &kp F5                &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &none
+&none  &none     &none     &none   &none      &none                 &kp F11    &kp F12   &kp FSLH  &kp LBKT   &kp RBKT   &kp BSPC
+&none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none                 &kp PG_UP  &kp HOME  &kp BSLH  &kp EQUAL  &kp MINUS  &kp RET
+&none  &none     &none     &none   &none      &none   &none  &none  &kp PG_DN  &kp END   &none     &none      &none      &none
+&none  &none     &none     &none   &none      &none   &none  &none  &none                                     &none      &none
             >;
 
             label = "SYM";
@@ -111,7 +111,7 @@
 &bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2           &bt BT_SEL 3  &bt BT_SEL 4                &none  &none  &none  &none  &none           &none
 &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_AUTO  &none         &none                       &none  &none  &none  &none  &none           &none
 &none       &kp C_VOL_DN          &kp C_VOLUME_UP       &kp K_MUTE             &none         &to 0                       &none  &none  &none  &none  &none           &none
-&none       &kp K_PREVIOUS        &kp K_PLAY_PAUSE      &kp K_NEXT             &none         &tog 8        &none  &none  &none  &none  &none  &none  &none           &none
+&none       &kp C_PREVIOUS        &kp C_PLAY_PAUSE      &kp C_NEXT             &none         &tog 8        &none  &none  &none  &none  &none  &none  &none           &none
 &none       &none                 &none                 &none                  &none         &none         &none  &none  &none                       &studio_unlock  &bootloader
             >;
 
@@ -121,11 +121,11 @@
         QWERTY {
             label = "QWRTY";
             bindings = <
-&kp ESC         &kp N1          &kp N2        &kp N3        &kp N4    &kp N5                                     &kp N6       &kp N7  &kp N8     &kp N9   &kp N0         &kp BSPC
-&kp TAB         &kp Q           &kp W         &kp E         &kp R     &kp T                                      &kp Y        &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
-&kp CAPS        &kp A           &kp S         &kp D         &kp F     &kp G                                      &kp H        &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
-&kp LEFT_SHIFT  &kp Z           &kp X         &kp C         &kp V     &kp B      &lt 7 PAGE_DOWN  &lt 7 PAGE_UP  &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&lt 2 GLOBE     &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_WIN  &kp LALT  &kp SPACE  &mo 4            &lt 3 ENTER    &lt 1 SPACE                              &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC         &kp N1          &kp N2        &kp N3        &kp N4    &kp N5                            &kp N6       &kp N7  &kp N8     &kp N9   &kp N0         &kp BSPC
+&kp TAB         &kp Q           &kp W         &kp E         &kp R     &kp T                             &kp Y        &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
+&kp CAPS        &kp A           &kp S         &kp D         &kp F     &kp G                             &kp H        &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
+&kp LEFT_SHIFT  &kp Z           &kp X         &kp C         &kp V     &kp B      &tog 8  &lt 7 PAGE_UP  &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp GLOBE       &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_WIN  &kp LALT  &kp SPACE  &mo 4   &lt 3 ENTER    &lt 1 SPACE                              &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
     };
