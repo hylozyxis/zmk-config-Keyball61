@@ -31,31 +31,37 @@
         combo-minus {
             bindings = <&kp MINUS>;
             key-positions = <58 34>;
+            layers = <0>;
         };
 
         combo-left-bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <58 21>;
+            layers = <0>;
         };
 
         combo-right-bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <58 21>;
+            layers = <0>;
         };
 
         combo-equal {
             bindings = <&kp EQUAL>;
             key-positions = <58 33>;
+            layers = <0>;
         };
 
         combo-slash {
             bindings = <&kp SLASH>;
             key-positions = <58 20>;
+            layers = <0>;
         };
 
         combo-backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <58 32>;
+            layers = <0>;
         };
     };
 
@@ -65,11 +71,11 @@
         default_layer {
             label = "DVORAK";
             bindings = <
-&kp ESC      &kp N1          &kp N2        &kp N3        &kp N4        &kp N5                                     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
-&kp TAB      &kp SQT         &kp COMMA     &kp DOT       &kp P         &kp Y                                      &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
-&kp LCTRL    &kp A           &kp O         &kp E         &kp U         &kp I                                      &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
-&kp LSHFT    &kp SEMI        &kp Q         &kp J         &kp K         &kp X      &lt 7 PAGE_DOWN  &lt 3 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
-&lt 3 GLOBE  &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 4            &lt 2 ENTER    &mo 1                           &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC                                 &kp N1          &kp N2        &kp N3        &kp N4        &kp N5                                     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
+&kp TAB                                 &kp SQT         &kp COMMA     &kp DOT       &kp P         &kp Y                                      &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
+&kp LCTRL                               &kp A           &kp O         &kp E         &kp U         &kp I                                      &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
+&kp LSHFT                               &kp SEMI        &kp Q         &kp J         &kp K         &kp X      &lt 7 PAGE_DOWN  &lt 3 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
+&lt 3 C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 4            &lt 2 ENTER    &mo 1                           &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
