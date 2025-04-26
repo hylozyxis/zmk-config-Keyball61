@@ -51,7 +51,7 @@ layers:
   - V
   - Z
   - $$mdi:apple-keyboard-shift$$
-  - {t: GLOBE, h: FUN}
+  - {t: AC NEXT KEYBOARD LAYOUT SELECT, h: FUN}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
@@ -561,13 +561,19 @@ layers:
 combos:
 - p: [58, 34]
   k: {t: '-', s: _}
+  l: [DVORAK]
 - p: [58, 21]
   k: {t: '[', s: '{'}
+  l: [DVORAK]
 - p: [58, 21]
   k: {t: ']', s: '}'}
+  l: [DVORAK]
 - p: [58, 33]
   k: {t: '=', s: +}
+  l: [DVORAK]
 - p: [58, 20]
   k: {t: /, s: '?'}
+  l: [DVORAK]
 - p: [58, 32]
   k: {t: \, s: '|'}
+  l: [DVORAK]
