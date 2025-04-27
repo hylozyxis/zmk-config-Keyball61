@@ -71,11 +71,11 @@
         default_layer {
             label = "DVORAK";
             bindings = <
-&kp ESC                                 &kp N1          &kp N2        &kp N3        &kp N4        &kp N5                                     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
-&kp TAB                                 &kp SQT         &kp COMMA     &kp DOT       &kp P         &kp Y                                      &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
-&kp LCTRL                               &kp A           &kp O         &kp E         &kp U         &kp I                                      &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
-&kp LSHFT                               &kp SEMI        &kp Q         &kp J         &kp K         &kp X      &lt 7 PAGE_DOWN  &lt 3 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
-&lt 3 C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 4            &lt 2 ENTER    &mo 1                           &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC    &kp N1          &kp N2        &kp N3        &kp N4        &kp N5                                     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
+&kp TAB    &kp SQT         &kp COMMA     &kp DOT       &kp P         &kp Y                                      &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
+&kp LCTRL  &kp A           &kp O         &kp E         &kp U         &kp I                                      &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
+&kp LSHFT  &kp SEMI        &kp Q         &kp J         &kp K         &kp X      &lt 7 PAGE_DOWN  &lt 2 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
+&kp GLOBE  &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 4            &lt 3 ENTER    &mo 1                           &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
@@ -161,11 +161,11 @@
         QWERTY {
             label = "QWRTY";
             bindings = <
-&kp ESC         &kp N1          &kp N2        &kp N3        &kp N4    &kp N5                             &kp N6     &kp N7  &kp N8     &kp N9   &kp N0         &kp BSPC
-&kp TAB         &kp Q           &kp W         &kp E         &kp R     &kp T                              &kp Y      &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
-&kp RCTRL       &kp A           &kp S         &kp D         &kp F     &kp G                              &kp H      &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
-&kp LEFT_SHIFT  &kp Z           &kp X         &kp C         &kp V     &kp B      &tog 8     &kp PAGE_UP  &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp GLOBE       &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_WIN  &kp LALT  &kp SPACE  &kp ENTER  &kp ENTER    &kp SPACE                              &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC         &kp N1          &kp N2        &kp N3        &kp N4    &kp N5                               &kp N6     &kp N7  &kp N8     &kp N9   &kp N0            &kp GRAVE
+&kp TAB         &kp Q           &kp W         &kp E         &kp R     &kp T                                &kp Y      &kp U   &kp I      &kp O    &kp P             &kp BACKSLASH
+&kp RCTRL       &kp A           &kp S         &kp D         &kp F     &kp G                                &kp H      &kp J   &kp K      &kp L    &kp SEMI          &kp SQT
+&kp LEFT_SHIFT  &kp Z           &kp X         &kp C         &kp V     &kp B      &tog 8     &kp EQUAL      &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH          &kp MINUS
+&kp GLOBE       &sk LEFT_SHIFT  &kp CAPSLOCK  &kp LEFT_WIN  &kp LALT  &kp SPACE  &kp ENTER  &kp BACKSPACE  &kp SPACE                              &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
     };
