@@ -81,11 +81,11 @@
 
         symbol_layer {
             bindings = <
-&none  &kp F1    &kp F2    &kp F3  &kp F4     &kp F5                &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &none
-&none  &none     &none     &none   &none      &none                 &kp F11    &kp F12   &kp FSLH  &kp LBKT   &kp RBKT   &kp BSPC
-&none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none                 &kp PG_UP  &kp HOME  &kp BSLH  &kp EQUAL  &kp MINUS  &kp RET
-&none  &none     &none     &none   &none      &none   &none  &none  &kp PG_DN  &kp END   &none     &none      &none      &none
-&none  &none     &none     &none   &none      &none   &none  &none  &none                                     &none      &none
+&none  &kp F1  &kp F2    &kp F3    &kp F4     &kp F5                &kp F6     &kp F7    &kp F8    &kp F9     &kp F10    &none
+&none  &none   &none     &kp UP    &none      &none                 &kp F11    &kp F12   &kp FSLH  &kp LBKT   &kp RBKT   &kp BSPC
+&none  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none                 &kp PG_UP  &kp HOME  &kp BSLH  &kp EQUAL  &kp MINUS  &kp RET
+&none  &none   &none     &none     &none      &none   &none  &none  &kp PG_DN  &kp END   &none     &none      &none      &none
+&none  &none   &none     &none     &none      &none   &none  &none  &none                                     &none      &none
             >;
 
             label = "SYM";
@@ -105,44 +105,44 @@
         function_layer {
             label = "FUN";
             bindings = <
-&trans  &trans  &trans   &trans   &trans   &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                              &trans     &trans
+&trans  &trans  &trans   &trans   &trans   &trans                  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                 &trans  &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none  &none     &none     &none   &none      &none                &none          &none      &none     &none      &none  &none
-&none  &none     &none     &none   &none      &none                &none          &none      &mo 5     &mo 6      &none  &none
-&none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none                &kp PAGE_UP    &mkp LCLK  &mkp MB3  &mkp RCLK  &none  &none
-&none  &none     &none     &none   &none      &none  &none  &none  &kp PAGE_DOWN  &mkp MB4   &none     &mkp MB5   &none  &none
-&none  &none     &none     &none   &none      &none  &none  &none  &none                                          &none  &none
+&trans  &none  &none     &none     &none      &none                   &none          &none      &none     &none      &none   &none
+&trans  &none  &none     &kp UP    &none      &none                   &none          &none      &mo 5     &mo 6      &none   &trans
+&trans  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK  &mkp MB3  &mkp RCLK  &none   &trans
+&trans  &none  &none     &none     &none      &none   &trans  &trans  &kp PAGE_DOWN  &mkp MB4   &none     &mkp MB5   &none   &trans
+&none   &none  &trans    &trans    &trans     &trans  &trans  &trans  &trans                                         &trans  &trans
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                       &none  &none
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &none
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &trans
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &trans
+&trans  &none  &none   &none   &none   &none   &trans  &trans  &none   &none  &none  &none  &none   &trans
+&none   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans
             >;
         };
 
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                       &none  &none
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &none
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &trans
+&trans  &none  &none   &none   &none   &none                   &none   &none  &none  &none  &none   &trans
+&trans  &none  &none   &none   &none   &none   &trans  &trans  &none   &none  &none  &none  &none   &trans
+&none   &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans
             >;
         };
 
