@@ -28,55 +28,55 @@
     combos {
         compatible = "zmk,combos";
 
-        combo-minus {
+        combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <58 34>;
             layers = <0>;
         };
 
-        combo-left-bracket {
+        combo_left_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <58 21>;
             layers = <0>;
         };
 
-        combo-right-bracket {
+        combo_right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <58 21>;
             layers = <0>;
         };
 
-        combo-equal {
+        combo_equal {
             bindings = <&kp EQUAL>;
             key-positions = <58 33>;
             layers = <0>;
         };
 
-        combo-slash {
+        combo_slash {
             bindings = <&kp SLASH>;
             key-positions = <58 20>;
             layers = <0>;
         };
 
-        combo-backslash {
+        combo_backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <58 32>;
             layers = <0>;
         };
 
-        combo-F1 {
+        combo_F1 {
             bindings = <&kp F1>;
             key-positions = <56 13>;
             layers = <0>;
         };
 
-        combo-F2 {
+        combo_F2 {
             bindings = <&kp F2>;
             key-positions = <56 14>;
             layers = <0>;
         };
 
-        combo-F3 {
+        combo_F3 {
             bindings = <&kp F3>;
             key-positions = <56 15>;
             layers = <0>;
@@ -88,49 +88,49 @@
             layers = <0>;
         };
 
-        combo-F5 {
+        combo_F5 {
             bindings = <&kp F5>;
             key-positions = <56 25>;
             layers = <0>;
         };
 
-        combo-F6 {
+        combo_F6 {
             bindings = <&kp F6>;
             key-positions = <56 26>;
             layers = <0>;
         };
 
-        combo-F7 {
+        combo_F7 {
             bindings = <&kp F7>;
             key-positions = <56 27>;
             layers = <0>;
         };
 
-        combo-F8 {
+        combo_F8 {
             bindings = <&kp F8>;
             key-positions = <56 28>;
             layers = <0>;
         };
 
-        combo-F9 {
+        combo_F9 {
             bindings = <&kp F9>;
             key-positions = <56 37>;
             layers = <0>;
         };
 
-        combo-F10 {
+        combo_F10 {
             bindings = <&kp F10>;
             key-positions = <56 38>;
             layers = <0>;
         };
 
-        combo-F11 {
+        combo_F11 {
             bindings = <&kp F11>;
             key-positions = <56 39>;
             layers = <0>;
         };
 
-        combo-F12 {
+        combo_F12 {
             bindings = <&kp F12>;
             key-positions = <56 40>;
             layers = <0>;
