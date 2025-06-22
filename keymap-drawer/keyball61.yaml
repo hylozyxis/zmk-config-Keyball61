@@ -577,3 +577,39 @@ combos:
 - p: [58, 32]
   k: {t: \, s: '|'}
   l: [DVORAK]
+- p: [56, 13]
+  k: F1
+  l: [DVORAK]
+- p: [56, 14]
+  k: F2
+  l: [DVORAK]
+- p: [56, 15]
+  k: F3
+  l: [DVORAK]
+- p: [56, 16]
+  k: F4
+  l: [DVORAK]
+- p: [56, 25]
+  k: F5
+  l: [DVORAK]
+- p: [56, 26]
+  k: F6
+  l: [DVORAK]
+- p: [56, 27]
+  k: F7
+  l: [DVORAK]
+- p: [56, 28]
+  k: F8
+  l: [DVORAK]
+- p: [56, 37]
+  k: F9
+  l: [DVORAK]
+- p: [56, 38]
+  k: F10
+  l: [DVORAK]
+- p: [56, 39]
+  k: F11
+  l: [DVORAK]
+- p: [56, 40]
+  k: F12
+  l: [DVORAK]
