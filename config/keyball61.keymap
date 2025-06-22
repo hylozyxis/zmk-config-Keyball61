@@ -82,7 +82,7 @@
             layers = <0>;
         };
 
-        combo-F4 {
+        combo_F4 {
             bindings = <&kp F4>;
             key-positions = <56 16>;
             layers = <0>;
