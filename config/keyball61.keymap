@@ -232,23 +232,13 @@
         system_layer {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2           &bt BT_SEL 3  &bt BT_SEL 4                &bt BT_CLR_ALL  &none  &none  &none  &none           &none
-&none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_AUTO  &none         &to 9                       &none           &none  &none  &none  &none           &none
+&none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_AUTO  &none         &none                       &none           &none  &none  &none  &none           &none
 &none       &kp C_VOL_DN          &kp C_VOLUME_UP       &kp K_MUTE             &none         &to 0                       &none           &none  &none  &none  &none           &none
 &none       &kp C_PREVIOUS        &kp C_PLAY_PAUSE      &kp C_NEXT             &none         &to 1         &none  &none  &none           &none  &none  &none  &none           &none
 &none       &none                 &none                 &none                  &none         &none         &none  &none  &none                                &studio_unlock  &bootloader
             >;
 
             label = "SYS";
-        };
-
-        steno {
-            bindings = <
-&to 0  &none  &none  &none  &none  &none                       &none         &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                       &none         &none  &none  &none  &none  &none
-&none  &kp S  &kp T  &kp P  &kp H  &kp ASTERISK                &kp ASTERISK  &kp F  &kp P  &kp L  &kp D  &none
-&none  &kp K  &kp K  &kp W  &kp R  &kp ASTERISK  &none  &none  &kp ASTRK     &kp R  &kp B  &kp S  &kp Z  &none
-&none  &none  &none  &none  &none  &kp A         &kp O  &kp E  &kp U                              &none  &none
-            >;
         };
     };
 };
