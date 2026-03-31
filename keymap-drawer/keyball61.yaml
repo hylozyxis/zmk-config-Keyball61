@@ -55,8 +55,8 @@ layers:
   - FUN
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: SYM}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - SYM
@@ -117,8 +117,8 @@ layers:
   - FUN
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', h: SYM}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: FUN}
   - SYM
@@ -179,8 +179,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
@@ -588,8 +588,8 @@ layers:
   - T
   - P
   - H
-  - '*'
-  - '*'
+  - {t: '8', s: '*'}
+  - {t: '8', s: '*'}
   - F
   - P
   - L
@@ -600,10 +600,10 @@ layers:
   - K
   - W
   - R
-  - '*'
+  - {t: '8', s: '*'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '*'
+  - '3'
+  - {t: '8', s: '*'}
   - R
   - B
   - G
@@ -613,7 +613,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '#'
+  - '3'
   - A
   - O
   - E
