@@ -514,7 +514,7 @@ layers:
   - $$mdi:brightness-5$$
   - BRIGHTNESS AUTO
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: DVORAK, h: toggle}
+  - {t: FOR_STENO, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -559,7 +559,7 @@ layers:
   - '&studio_unlock'
   - $$mdi:progress-download$$
   FOR_STENO:
-  - $$mdi:keyboard-esc$$
+  - {t: DVORAK, h: toggle}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -601,7 +601,7 @@ layers:
   - C
   - V
   - B
-  - SYS
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - N
   - M
@@ -615,7 +615,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - $$mdi:keyboard-space$$
   - N
   - M
   - $$mdi:apple-keyboard-command$$
