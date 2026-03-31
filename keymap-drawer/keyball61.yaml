@@ -593,8 +593,8 @@ layers:
   - F
   - P
   - L
+  - T
   - D
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - K
   - K
@@ -606,14 +606,14 @@ layers:
   - '*'
   - R
   - B
+  - G
   - S
   - Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '#'
   - A
   - O
   - E
