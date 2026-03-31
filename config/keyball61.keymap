@@ -143,22 +143,22 @@
         default_layer {
             label = "DVORAK";
             bindings = <
-&kp ESC           &kp N1    &kp N2            &kp N3        &kp N4     &kp N5                                           &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
-&kp TAB           &kp SQT   &kp COMMA         &kp DOT       &kp P      &kp Y                                            &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
-&kp LCTRL         &kp A     &kp O             &kp E         &kp U      &kp I                                            &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
-&kp LSHFT         &kp SEMI  &kp Q             &kp J         &kp K      &kp X            &lt 8 PAGE_DOWN  &lt 3 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
-&kp LOCKING_CAPS  &mo 4     &kp LEFT_COMMAND  &kp LEFT_ALT  &kp SPACE  &lt 2 BACKSPACE  &lt 3 ENTER      &lt 4 SPACE    &mo 2                           &kp RIGHT_GUI  &kp RIGHT_ALT
+&kp ESC           &kp N1    &kp N2            &kp N3        &kp N4           &kp N5                                     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp GRAVE
+&kp TAB           &kp SQT   &kp COMMA         &kp DOT       &kp P            &kp Y                                      &kp F   &kp G   &kp C   &kp R   &kp L          &kp BSPC
+&kp LCTRL         &kp A     &kp O             &kp E         &kp U            &kp I                                      &kp D   &kp H   &kp T   &kp N   &kp S          &kp RET
+&kp LSHFT         &kp SEMI  &kp Q             &kp J         &kp K            &kp X      &lt 8 PAGE_DOWN  &lt 3 PAGE_UP  &kp B   &kp M   &kp W   &kp V   &kp Z          &kp RSHFT
+&kp LOCKING_CAPS  &mo 4     &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 2 BACKSPACE  &kp SPACE  &lt 3 ENTER      &lt 4 SPACE    &mo 2                           &kp RIGHT_GUI  &kp RIGHT_ALT
             >;
         };
 
         QWERTY {
             label = "QWRTY";
             bindings = <
-&kp ESC           &kp N1  &kp N2            &kp N3        &kp N4     &kp N5                                     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0             &kp GRAVE
-&kp TAB           &kp Q   &kp W             &kp E         &kp R      &kp T                                      &kp Y   &kp U   &kp I      &kp O    &kp P              &kp BACKSPACE
-&kp RCTRL         &kp A   &kp S             &kp D         &kp F      &kp G                                      &kp H   &kp J   &kp K      &kp L    &kp SEMI           &kp ENTER
-&kp LEFT_SHIFT    &kp Z   &kp X             &kp C         &kp V      &kp B            &mo 8        &kp EQUAL    &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH           &kp RIGHT_SHIFT
-&kp LOCKING_CAPS  &mo 4   &kp LEFT_COMMAND  &kp LEFT_ALT  &kp SPACE  &lt 2 BACKSPACE  &lt 3 ENTER  &lt 4 SPACE  &mo 2                               &kp RIGHT_COMMAND  &kp RIGHT_ALT
+&kp ESC           &kp N1  &kp N2            &kp N3        &kp N4           &kp N5                               &kp N6  &kp N7  &kp N8     &kp N9   &kp N0             &kp GRAVE
+&kp TAB           &kp Q   &kp W             &kp E         &kp R            &kp T                                &kp Y   &kp U   &kp I      &kp O    &kp P              &kp BACKSPACE
+&kp RCTRL         &kp A   &kp S             &kp D         &kp F            &kp G                                &kp H   &kp J   &kp K      &kp L    &kp SEMI           &kp ENTER
+&kp LEFT_SHIFT    &kp Z   &kp X             &kp C         &kp V            &kp B      &mo 8        &kp EQUAL    &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH           &kp RIGHT_SHIFT
+&kp LOCKING_CAPS  &mo 4   &kp LEFT_COMMAND  &kp LEFT_ALT  &lt 2 BACKSPACE  &kp SPACE  &lt 3 ENTER  &lt 4 SPACE  &mo 2                               &kp RIGHT_COMMAND  &kp RIGHT_ALT
             >;
         };
 
@@ -243,11 +243,11 @@
 
         steno {
             bindings = <
-&to 0  &none  &none  &none  &none     &none                       &none         &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none     &none                       &none         &none  &none  &none  &none  &none
-&none  &kp S  &kp T  &kp P  &kp H     &kp ASTERISK                &kp ASTERISK  &kp F  &kp P  &kp L  &kp T  &kp D
-&none  &kp K  &kp K  &kp W  &kp R     &kp ASTERISK  &none  &none  &kp ASTRK     &kp R  &kp B  &kp G  &kp S  &kp Z
-&none  &none  &none  &none  &kp HASH  &kp A         &kp O  &kp E  &kp U                              &none  &none
+&to 0  &none  &none  &none  &none         &none                        &none   &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none         &none                        &none   &none  &none  &none  &none  &none
+&none  &kp S  &kp T  &kp P  &kp H         &kp N8                       &kp N8  &kp F  &kp P  &kp L  &kp T  &kp D
+&none  &kp K  &kp K  &kp W  &kp R         &kp N8  &none  &kp NUMBER_3  &kp N8  &kp R  &kp B  &kp G  &kp S  &kp Z
+&none  &none  &none  &none  &kp NUMBER_3  &kp A   &kp O  &kp E         &kp U                        &none  &none
             >;
         };
     };
